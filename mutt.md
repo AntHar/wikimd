@@ -97,7 +97,6 @@ Hotmail example
     
     vim ~/.muttrc
 
-
     # Folder hooks
     folder-hook 'account.com.gmail.gotbletu' 'source ~/.mutt/account.com.gmail.gotbletu'
     folder-hook 'account.com.yahoo.gotbletu' 'source ~/.mutt/account.com.yahoo.gotbletu'
@@ -114,13 +113,8 @@ Hotmail example
     macro index <F10> '<sync-mailbox><enter-command>source ~/.mutt/account.com.live.gotbletu<enter><change-folder>!<enter>'
     macro index <F9> '<sync-mailbox><enter-command>source ~/.mutt/account.com.hotmail.gotbletu<enter><change-folder>!<enter>'
     
-    # Fetch mail shortcut
-    bind index G imap-fetch-mail
-    
-    
     # Set default text editor
     set editor = "nano"
-    
     
     #-------- Basic Config {{{
     #------------------------------------------------------
