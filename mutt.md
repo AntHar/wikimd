@@ -92,10 +92,12 @@ Hotmail example
     set ssl_force_tls = yes
      
 ### configuration
-set your hooks, macros and text editor
+set your folder hooks, macros hotkey, default account and text editor
 
     
     vim ~/.muttrc
+
+
 
     # Folder hooks
     folder-hook 'account.com.gmail.gotbletu' 'source ~/.mutt/account.com.gmail.gotbletu'
