@@ -116,7 +116,7 @@ set your folder hooks, macros hotkey, default account and text editor
     macro index <F9> '<sync-mailbox><enter-command>source ~/.mutt/account.com.hotmail.gotbletu<enter><change-folder>!<enter>'
     
     # Set default text editor
-    set editor = "nano"
+    set editor = "$EDITOR"
     
     #-------- Basic Config {{{
     #------------------------------------------------------
