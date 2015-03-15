@@ -92,7 +92,7 @@ Hotmail example
     set ssl_force_tls = yes
      
 ### configuration
-- set your hooks, macros and text editor
+set your hooks, macros and text editor
 
     
     vim ~/.muttrc
