@@ -90,6 +90,38 @@ Hotmail example
     set message_cachedir = ~/.mutt/com.hotmail.gotbletu/cache/bodies         
     set certificate_file = ~/.mutt/com.hotmail.gotbletu/certificates  
     set ssl_force_tls = yes
+    
+Openmailbox https://www.openmailbox.org/
+    
+    vim ~/.mutt/account.org.openmailbox.gotbletu
+
+
+    # imaps
+    set spoolfile = "imaps://imap.openmailbox.org:993/INBOX"
+    set folder = "imaps://imap.openmailbox.org:993"
+    set imap_user = "gotbletu@openmailbox.org"
+    set imap_pass = "PASSWORD"
+    set imap_authenticators = "login"
+    set imap_passive = "no"
+    set imap_check_subscribed = "yes"
+    set imap_list_subscribed = "yes"
+    set mail_check = 60
+    
+    #smtps
+    set smtp_url = "smtps://user@openmailbox.org@openmailbox.org:465"
+    set smtp_pass = "XXX"
+    set from = "user@openmailbox.org"
+
+    # charset
+    set charset	= "utf-8"
+    set assumed_charset = "utf-8"
+    set send_charset = "utf-8:iso-8859-15:us-ascii"
+    
+    # force SSL
+    set ssl_starttls = "yes"
+    set ssl_force_tls = "yes"
+    
+
      
 ### configuration
 set your folder hooks, macros hotkey, default account and text editor

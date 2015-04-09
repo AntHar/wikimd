@@ -25,13 +25,13 @@ Can be installed on any OS supporting Java (Windows, Linux, Mac OS...) and on a 
     # download ubooquity
     wget "http://vaemendis.net/ubooquity/service/download.php" -O ubooquity.zip
     unzip ubooquity.zip
-    mkdir -p ~/.binary/ubooquity
-    mv Ubooquity.jar ~/.binary/ubooquity
+    mkdir -p ~/.scripts/ubooquity
+    mv Ubooquity.jar ~/.scripts/ubooquity
 
 ### aliases
 	# add these to ~/.bashrc or ~/.zshrc and reload your shell
 
-	PATH_UBOOQUITY=~/.binary/ubooquity
+	PATH_UBOOQUITY=~/.scripts/ubooquity
 	ubooquity() { cd $PATH_UBOOQUITY && nohup java -jar $PATH_UBOOQUITY/Ubooquity.jar -webadmin -headless >/dev/null 2>&1& }
 	ubooquity-gui() { cd $PATH_UBOOQUITY && nohup java -jar $PATH_UBOOQUITY/Ubooquity.jar -webadmin >/dev/null 2>&1& }
 	ubooquity-quit() { kill $(ps -ef | grep '[U]booquity.jar' | awk '{print $2}') ;}
@@ -59,9 +59,8 @@ Can be installed on any OS supporting Java (Windows, Linux, Mac OS...) and on a 
 ***
 ### start services
     crontab -e
-    
-    PATH_UBOOQUITY=~/.binary/ubooquity
-    @reboot sleep 180 && cd $PATH_UBOOQUITY && nohup java -jar $PATH_UBOOQUITY/Ubooquity.jar -webadmin -headless
+
+    @reboot sleep 180 && cd ~/.scripts/ubooquity && java -jar Ubooquity.jar -webadmin -headless
 
 ### references
 
