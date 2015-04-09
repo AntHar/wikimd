@@ -127,7 +127,7 @@ From here, everything is done via the SSH console.
 - More info here - http://forum.doozan.com/read.php?3,14,14
 - TLDR; allows troubleshooting uBoot without a serial cable
 
-    
+
     #Set up netconsole
     #Update IP Addresses as appropriate
     /tmp/fw_setenv preboot 'run preboot_nc'
