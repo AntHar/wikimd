@@ -124,8 +124,8 @@ From here, everything is done via the SSH console.
     /tmp/fw_printenv
 
 ### setup netconsole
-- More info here:  http://forum.doozan.com/read.php?3,14,14
-- TLDR: allows troubleshooting uBoot without a serial cable.
+More info here:  http://forum.doozan.com/read.php?3,14,14
+TLDR: allows troubleshooting uBoot without a serial cable.
 
 
     #Set up netconsole
