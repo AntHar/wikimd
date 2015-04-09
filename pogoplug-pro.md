@@ -45,8 +45,7 @@
 
 * Results --> PogoplugPro (**192.168.1.97**)
 
- 
-    # default user is "root"
+    
     ssh root@192.168.1.97
 
 ### install firmware
