@@ -125,7 +125,8 @@ From here, everything is done via the SSH console.
 
 ### setup netconsole
 - More info here - http://forum.doozan.com/read.php?3,14,14
-- TLDR - allows troubleshooting uBoot without a serial cable
+- TLDR - allows troubleshooting uBoot without a serial cable.
+
 
 
     #Set up netconsole
