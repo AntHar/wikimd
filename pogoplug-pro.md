@@ -44,8 +44,8 @@
     Nmap done: 256 IP addresses (5 hosts up) scanned in 2.56 seconds
 
 * Results --> PogoplugPro (**192.168.1.97**)
-    
-    
+
+ 
     # default user is "root"
     ssh root@192.168.1.97
 
