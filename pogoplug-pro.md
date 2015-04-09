@@ -124,9 +124,8 @@ From here, everything is done via the SSH console.
     /tmp/fw_printenv
 
 ### setup netconsole
-- More info here - http://forum.doozan.com/read.php?3,14,14
-- TLDR - allows troubleshooting uBoot without a serial cable.
-
+- More info here:  http://forum.doozan.com/read.php?3,14,14
+- TLDR: allows troubleshooting uBoot without a serial cable.
 
 
     #Set up netconsole
@@ -277,6 +276,7 @@ Download the script and edit if you need https://github.com/dweeber/WiFi_Check/b
 ### references
 http://blog.qnology.com/2015/04/hacking-pogoplug-v3oxnas-proclassic.html
 http://blog.qnology.com/2014/11/debian-on-pogoplug-tutorial-wireless.html
+http://forum.doozan.com/read.php?3,14,14
 https://github.com/dweeber/WiFi_Check/blob/master/WiFi_Check
 
 ### contact
