@@ -125,7 +125,7 @@ From here, everything is done via the SSH console.
 
 ### setup netconsole
 - More info here - http://forum.doozan.com/read.php?3,14,14
-- TLDR; allows troubleshooting uBoot without a serial cable
+- TLDR - allows troubleshooting uBoot without a serial cable
 
 
     #Set up netconsole
@@ -137,6 +137,7 @@ From here, everything is done via the SSH console.
     
     # ip address of your desktop
     /tmp/fw_setenv serverip '192.168.1.100'
+
 
 ### Debian Installation on USB Hard/Flash Drive
 Plug in your USB flash drive
